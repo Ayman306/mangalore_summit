@@ -582,21 +582,3 @@ flex-flow: row wrap;
 		width: 100%;
 	}
 }
-/* .speaker{
-    padding: 20px 0px;
-    width: 100vw;
-    height: auto;
-    background:  url(./assets/abstract-shapes-9.svg);
-    background-position: center;
-     background-repeat: repeat;
-     background-size: contain;
-     border-radius: 50%;
-    background-color: white;
-    border-bottom-right-radius: 0px;
-    border-bottom-left-radius: 0px;
-}
-.speakers .content{
-    padding-top: 3rem;
-    color: rgb(22, 22, 22);
-} */
-/* speaker section end  */
