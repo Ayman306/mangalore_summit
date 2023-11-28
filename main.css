@@ -1,5 +1,8 @@
 @import url('https://fonts.googleapis.com/css2?family=Calistoga&family=Figtree:ital,wght@0,400;0,500;0,700;0,800;1,500&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=Tenor+Sans&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Chewy&display=swap');
+
+@import url('https://fonts.googleapis.com/css2?family=Chewy&family=Poppins:wght@400;500;600;700&display=swap');
 * {
 	padding: 0;
 	margin: 0;
@@ -27,21 +30,22 @@
 
 body {
 	overflow-x: hidden;
-	font-family: "Figtree", sans-serif;
+	font-family: "Poppins", sans-serif;
 	scroll-behavior: smooth;
 }
 h1, h2, h3 {
-	font-family: 'Calistoga', serif;
+	font-family: 'Chewy', sans-serif;
 }
-p , a, li ,label{
+/* p , a, li ,label{
 font-family: 'Tenor Sans', sans-serif;
-}
+} */
 ul {
 	list-style: none;
 	margin-bottom: 0px;
 }
 a {
 	text-decoration: none;
+	font-size: "Poppins",sans-serif;
 }
 /* header section common  start*/
 .headMain{
@@ -111,10 +115,10 @@ a {
 .primary-navigation a > [aria-hidden="true"] {
 	font-weight: 700;
 	margin-inline-end: 0.5rem;
-	;
 }
 .primary-navigation a {
 	color: black;
+	font-weight: bold ;
 }
 
 .mobile-nav-toggle {
@@ -318,7 +322,7 @@ a {
 }
 
 .card > p {
-	font-size: clamp(12px, 6vw, 20px);
+	font-size: 1em;
 	font-weight: bold;
 	cursor: pointer;
 }
