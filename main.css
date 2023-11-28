@@ -186,7 +186,7 @@ a {
 }
 .hero {
 	width: 100vw;
-	height: 65vh;
+	height: clamp(65vh,6vw,100vh);
 	background: linear-gradient(45deg, rgb(0 0 0 / 50%), rgb(0 0 0 / 70%)),
 		url("./assets/header-wallpaper.jpg");
 	background-position: center;
@@ -246,7 +246,7 @@ a {
 	background: linear-gradient(45deg, rgb(0 0 0 / 70%), rgb(0 0 0 / 50%));
 	top: 0;
 }
-@media (max-width:480px) {
+@media (max-width:580px) {
 	.content{
 		padding-top: 8em;
 	}
