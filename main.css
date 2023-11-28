@@ -45,7 +45,7 @@ ul {
 }
 a {
 	text-decoration: none;
-	font-size: "Poppins",sans-serif;
+	font-family: "Poppins",sans-serif;
 }
 /* header section common  start*/
 .headMain{
@@ -124,7 +124,7 @@ a {
 .mobile-nav-toggle {
 	display: none;
 }
-@media (max-width: 60em) {
+@media (max-width: 65em) {
 	.primary-navigation {
 		position: fixed;
 		inset: 0 0 0 30%;
@@ -207,12 +207,24 @@ a {
 	text-align: center;
 }
 .regBtn {
-	background-color: rgba(211, 196, 255, 0.543);
-	border-radius: 2em;
-	color: rgba(255, 255, 255, 0.543);
-	font-size: 12px;
+	background-color: #ffffff;
+	/* border-radius: 2em; */
+	color: rgba(0, 0, 0, 0.543);
+	font-size: 16px;
 	border: none;
-	box-shadow: 0.5px 0.5px 2px white;
+	box-shadow:6px 5px 0px 0px #919191;
+	padding: 1em 2em;
+	font-weight: bold;
+	font-family: 'Poppins',sans-serif;
+	margin-top: 1em;
+	transition: 1ms ease-in-out;
+}
+.regBtn:hover{
+	box-shadow: 3px 2px 0px 0px #919191;
+	border: 1px solid #919191;
+}
+.regBtn a{
+	color: black;
 }
 .regBtn:disabled {
 	background-color: transparent;
@@ -499,7 +511,16 @@ flex-flow: row wrap;
 		}
 		.mobile a{
 	color: white;
-
+	font-size:clamp(0.5rem,4vw,1.5rem)
+}
+.mobile img{
+	width: clamp(0.5rem,4vw,1.5rem);
+	height: clamp(0.5rem,4vw,1.5rem);
+}
+.mobile div{
+	gap: 15px;
+	align-items: center;
+	justify-content: center;
 }
 .formSection label{
 	font-weight: 600;
