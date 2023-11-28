@@ -56,9 +56,9 @@ a {
     background-size: cover;
 }
 .head{
-    display: flex;
+    /* display: flex;
     align-items: center;
-    justify-content: center;
+    justify-content: center; */
     padding-bottom: 20px;
 	font-size: clamp(30px,12vw,70px);
 }
@@ -102,6 +102,7 @@ a {
 	margin: 0;
 	background: hsl(0, 0%, 100% / 0.75);
 	/* backdrop-filter: blur(1rem); */
+	align-items: center;
 }
 
 @supports (backdrop-filter: blur(1rem)) {
@@ -123,6 +124,17 @@ a {
 
 .mobile-nav-toggle {
 	display: none;
+}
+
+.contact{
+	background-color: #ffb4009c;
+    padding: 10px;
+    border-radius: 20px;
+    color: white !important;
+    box-shadow: 0.5px 0.5px 5px white;
+}
+.contact a{
+	color: white;
 }
 @media (max-width: 65em) {
 	.primary-navigation {
@@ -162,6 +174,9 @@ a {
 		background-position: center;
 		background-size: cover;
 	}
+	.contact{
+		font-size: 12px;
+	}
 }
 @media (min-width: 40em) and (max-width: 50em) {
 	.primary-navigation a > span[aria-hidden] {
@@ -174,13 +189,6 @@ a {
 		padding-block: 2rem;
 		padding-inline: clamp(3rem, 6vw, 10rem);
 	}
-}
-.contact{
-	background-color: #ffb4009c;
-    padding: 10px;
-    border-radius: 20px;
-    color: white !important;
-    box-shadow: 0.5px 0.5px 5px white;
 }
 /* #navBar Css end */
 
@@ -205,6 +213,9 @@ a {
 	color: white;
 	padding-inline: clamp(1em, 6vw, 7em);
 	text-align: center;
+}
+.content .summit{
+	color: #ffc107;
 }
 .regBtn {
 	background-color: #ffffff;
